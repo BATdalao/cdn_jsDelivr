@@ -12,4 +12,6 @@ set t=%t::=%
 set t=%t:.=%
 set new=%d%%t%
 echo %new% 
+set /p new=:
+echo %new% 
 pause
