@@ -1,13 +1,14 @@
 @echo off 
 Title 上传                                              
-Color 0A   
+Color 5F  
 :caozuo  
 echo. 
-echo ═══════════════════════════════════════
-echo 【命令】： 
-echo    0.上传到git     
-echo    1.imgs
-echo    2.videos   
+echo **************************cdn_jsdelivr上传操作**************************************
+echo ************************************************************************************
+echo                         0：将所有文件上传到git     
+echo                         1：将图片文件复制到imgs文件夹并获取链接
+echo                         2：将视频文件复制到videos文件夹并获取链接 
+echo ************************************************************************************
 echo.
 set /p n=输入操作号: 
 if "%n%"=="" cls&goto :caozuo 
